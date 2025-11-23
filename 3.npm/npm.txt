@@ -1,0 +1,24 @@
+NPM -> it is the default package manager for node . it allows to install and manage 3rd party application . we can manage dependencies , we can run scripts defined in package.json .we can manage projects, also we can publish our own packages.
+
+npm init-> it will intialize a new node js project. it will ask sone quesntions.
+
+npm init -y-> it will not ask any quesntions.
+
+dependencies-> this are all the packages that need to run your application in production.
+
+dev-dependencies-> are all the packages that need to run on your local pc.
+
+
+npm install name of package -> this will install the desired packages . if you give a invalid name it will give error as the name is not found in node register
+
+npm uninstall name of package -> to uninstall any package.
+
+npm -> update to update a package.
+
+npm run script name -> to run a script.
+
+"script":{
+    "start":"node index.js "
+}
+
+npm start -> it will run the start script.
